@@ -1,18 +1,24 @@
 {
-  "name": "modern_portfolio",
+  "name": "Dennis_Nzesya_Portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "",
   "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennismuasya/Dennis_Nzesya_Portfolio.git"
   },
-  "keywords": []
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennismuasya/Dennis_Nzesya_Portfolio/issues"
+  },
+  "homepage": "https://github.com/dennismuasya/Dennis_Nzesya_Portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1"
+  }
 }
