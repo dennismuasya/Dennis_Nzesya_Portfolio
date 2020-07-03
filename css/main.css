@@ -189,7 +189,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;}
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
