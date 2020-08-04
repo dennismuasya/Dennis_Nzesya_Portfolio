@@ -72,19 +72,29 @@
     </div>
 <h5> Get enquiries now</h5>
   </main>
-  <form name="contact" method="POST" data-netlify="true">
-  <input type="text" name="name" placeholder="Enter your name">
-                                
-                                    <input type="text" name="email" placeholder="Enter your e-mail">
-                
-                                    <textarea name="message" rows="5" placeholder="Enter your message"></textarea>
-                                
-                                    <button type="submit" name="sub">Send</button>
-  
-</form>
+  <form action="POST" data-netlify="true">
+    <div class="fields">
+      <div class="field half">
+        <input type="text" name="name" id="name" placeholder="Enter your Name"/>
+      </div>
+      <div class="field half">
+        <input type="text" name="email" placeholder="Enter your Email"/>
+      </div>
+      <div class="field">
+      <textarea name="message" id="message" placeholder="Enter your message" rows="7"></textarea>
+    </div>
+    <div class="field">
+        <input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7"/>
+      </div>
+      <div data-netlify-recaptcha="true"></div>
+    </div>
+    <ul class="actions">
+      <input type="submit" value="Send Message" class="button primary"/>
+    </ul>
+  </form>
 
-  <footer id="main-footer">🔥
-    Copyright &copy; 2020
+  <footer id="main-footer">
+    All Rights Reserved &copy; 2020
   </footer>
 
   <script src="js/main.js"></script>
