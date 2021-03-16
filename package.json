@@ -1,7 +1,6 @@
 {
   "name": "Dennis_Nzesya_Portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -20,5 +19,7 @@
   "dependencies": {
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
